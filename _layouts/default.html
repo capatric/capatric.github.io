@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <style>
+        /* All your CSS here - shared across pages */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><a href="/" style="text-decoration:none;color:inherit;">{{ site.title }}</a></h1>
+            <nav class="links">
+                <a href="/">Home</a>
+                <a href="/writing">Writing</a>
+                <a href="/projects">Projects</a>
+            </nav>
+        </header>
+
+        {{ content }}
+    </div>
+</body>
+</html>
