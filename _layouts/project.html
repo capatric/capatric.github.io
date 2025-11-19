@@ -1,0 +1,18 @@
+cat > _layouts/project.html << 'EOF'
+---
+layout: default
+---
+
+<article>
+    <p class="project-meta">{{ page.type }} · {{ page.year }}</p>
+    <h2>{{ page.title }}</h2>
+    
+    {{ content }}
+    
+    {% if page.link %}
+    <p style="margin-top: 40px;">
+        <a href="{{ page.link }}" style="color: #555; text-decoration: none; border-bottom: 1px solid #555;" target="_blank">View Project →</a>
+    </p>
+    {% endif %}
+</article>
+EOF

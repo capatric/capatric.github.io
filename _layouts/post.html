@@ -1,0 +1,12 @@
+cat > _layouts/post.html << 'EOF'
+---
+layout: default
+---
+
+<article>
+    <span class="post-date">{{ page.date | date: "%B %d, %Y" }}</span>
+    <h2>{{ page.title }}</h2>
+    
+    {{ content }}
+</article>
+EOF
