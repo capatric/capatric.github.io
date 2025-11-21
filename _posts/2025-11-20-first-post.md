@@ -30,7 +30,7 @@ def hello_world():
 
 Check out [my website](/) or add images:
 
-![Alt text](https://via.placeholder.com/600x300)
+![Alt text](/assets/images/perrito.jpeg)
 
 ## Conclusion
 
