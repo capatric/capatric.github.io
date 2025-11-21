@@ -5,7 +5,7 @@ title: About
 
 # About Me
 
-I'm [Your Name], a [your profession] based in [location].
+I'm Carlos Patricio, a Electronics Engineer based in Guadalajara, Jalisco, Mexico.
 
 ## Background
 
