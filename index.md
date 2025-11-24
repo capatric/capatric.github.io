@@ -5,7 +5,7 @@ title: Home
 
 # Hello, I'm Carlos Patricio
 
-I'm a Electrinics Engineer focused on [your focus areas]. Currently working at Oracle as Site Reliability Engineer.
+I'm an Electronics Engineer focused on Cloud. Currently working at Oracle as Site Reliability Engineer.
 
 ## What I Do
 
