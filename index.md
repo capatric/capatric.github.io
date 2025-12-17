@@ -3,22 +3,26 @@ layout: default
 title: Home
 ---
 
-# Hello, I'm Carlos Patricio
+<!-- 1. The Hero Section: Big and bold -->
+# Building the Infrastructure Behind AI.
 
-I'm an Electronics Engineer focused on Cloud. Currently working at Oracle as Site Reliability Engineer.
+I am an **Electronics Engineer** and **Site Reliability Engineer** at Oracle.  
+I specialize in Cloud Infrastructure, Linux systems, and Hardware Automation.
 
-## What I Do
+<br>
 
-I specialize in working in the Artificial Intelligence Infrastructure team at Oraclre. My interests include Linux, new technologies, AI, Hardware Developement and so on.
+<!-- 2. Call to Action: Direct them to your Resume/About page -->
+[More About Me →](/about)
 
-## Recent Posts
+---
 
-{% for post in site.posts limit:3 %}
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}
-
-[View all posts →](/posts)
-
-## Get in Touch
-
-Feel free to reach out via [email](mailto:{{ site.email }}) or connect with me on [LinkedIn](https://linkedin.com/in/capatric).
+<!-- 3. Recent Posts (Optional: Only keep if you write blogs) -->
+### Recent Posts
+<ul>
+  {% for post in site.posts limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span style="color: #888; font-size: 0.9rem;">- {{ post.date | date: "%B %d, %Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
