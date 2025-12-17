@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Building the Infrastructure Behind AI.
+# Ensuring the Reliability of AI Infrastructure
 
 I am an **Electronics Engineer** and **Site Reliability Engineer** at Oracle.
 I specialize in Cloud Infrastructure, Linux systems, and Hardware Automation.
