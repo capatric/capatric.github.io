@@ -13,17 +13,29 @@ I'm Carlos Angel Patricio, a Electronics Engineer based in Guadalajara, Jalisco,
 
 ## Experience
 
-**[Company Name]** - [Role] (Year - Present)
+**Oracle** - [Role] (Year - Present)
 - Achievement or responsibility
 - Another key contribution
 
-**[Previous Company]** - [Role] (Year - Year)
+**Intel Labs** - System Validation Engineer (Year - Year)
+- What you accomplished
+- Technologies or skills used
+
+**Intel Corporation** - Electrical Validation Engineer (Year - Year)
+- What you accomplished
+- Technologies or skills used
+
+**Arizlu** - Electrical Mainteinance Engineer (Year - Year)
+- What you accomplished
+- Technologies or skills used
+
+**TunaShields** - Electronics Engineer Intern (Year - Year)
 - What you accomplished
 - Technologies or skills used
 
 ## Skills
 
-Programming Languages: [Languages you know]  
+Programming Languages: Python, Bash
 Frameworks & Tools: [Tools you use]  
 Other: [Other relevant skills]
 
@@ -34,5 +46,5 @@ Outside of work, I'm interested in [your interests and hobbies].
 ## Contact
 
 - Email: [{{ site.email }}](mailto:{{ site.email }})
-- GitHub: [github.com/yourusername](https://github.com/yourusername)
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- GitHub: [github.com/capatric](https://github.com/capatric)
+- LinkedIn: [linkedin.com/in/capatric](https://linkedin.com/in/capatric)

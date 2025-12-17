@@ -3,13 +3,13 @@ layout: default
 title: Home
 ---
 
-# Hello, I'm [Your Name]
+# Hello, I'm Carlos Patricio
 
-I'm a [your profession] focused on [your focus areas]. Currently [what you're doing now].
+I'm an Electronics Engineer focused on Cloud. Currently working at Oracle as Site Reliability Engineer.
 
 ## What I Do
 
-I specialize in building [description of your work]. My interests include [list 2-3 key interests].
+I specialize in working in the Artificial Intelligence Infrastructure team at Oraclre. My interests include Linux, new technologies, AI, Hardware Developement and so on.
 
 ## Recent Posts
 
@@ -21,4 +21,4 @@ I specialize in building [description of your work]. My interests include [list 
 
 ## Get in Touch
 
-Feel free to reach out via [email](mailto:{{ site.email }}) or connect with me on [Twitter](https://twitter.com/yourhandle) / [LinkedIn](https://linkedin.com/in/yourprofile).
+Feel free to reach out via [email](mailto:{{ site.email }}) or connect with me on [LinkedIn](https://linkedin.com/in/capatric).
