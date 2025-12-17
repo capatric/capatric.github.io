@@ -5,7 +5,7 @@ title: About
 
 # About Me
 
-I'm Carlos Patricio, a Electronics Engineer based in Guadalajara, Jalisco, Mexico.
+I'm Carlos Angel Patricio, a Electronics Engineer based in Guadalajara, Jalisco, Mexico.
 
 ## Background
 
