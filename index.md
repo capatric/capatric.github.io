@@ -3,20 +3,15 @@ layout: default
 title: Home
 ---
 
-<!-- 1. The Hero Section: Big and bold -->
 # Building the Infrastructure Behind AI.
 
-I am an **Electronics Engineer** and **Site Reliability Engineer** at Oracle.  
+I am an **Electronics Engineer** and **Site Reliability Engineer** at Oracle.
 I specialize in Cloud Infrastructure, Linux systems, and Hardware Automation.
+
+[More About Me &rarr;](/about)
 
 <br>
 
-<!-- 2. Call to Action: Direct them to your Resume/About page -->
-[More About Me →](/about)
-
----
-
-<!-- 3. Recent Posts (Optional: Only keep if you write blogs) -->
 ### Recent Posts
 <ul>
   {% for post in site.posts limit:3 %}
