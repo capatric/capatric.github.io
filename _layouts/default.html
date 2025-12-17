@@ -22,10 +22,25 @@
     <main class="container">
         {{ content }}
     </main>
-
-    <footer class="footer">
+<footer class="footer">
         <div class="container">
-            <p>{{ site.email }} • © {{ site.time | date: '%Y' }} {{ site.title }}</p>
+            <!-- Social Links Group -->
+            <div class="footer-links">
+                {% if site.email %}
+                <a href="mailto:{{ site.email }}" target="_blank">Email</a>
+                {% endif %}
+                
+                {% if site.github_username %}
+                <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
+                {% endif %}
+
+                {% if site.linkedin_username %}
+                <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>
+                {% endif %}
+            </div>
+
+            <!-- Copyright -->
+            <p class="copyright">© {{ site.time | date: '%Y' }} {{ site.title }}</p>
         </div>
     </footer>
 </body>
