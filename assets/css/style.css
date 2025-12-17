@@ -162,24 +162,26 @@ img {
     margin-top: 4rem;
 }
 
-/* This targets the <div class="container footer-flex"> */
+/* Container for Copyright + Links */
 .footer-flex {
     display: flex;
-    justify-content: space-between; /* Pushes Copyright to Left, Links to Right */
-    align-items: center;            /* Aligns them vertically */
+    justify-content: center; /* <--- Centers everything in the middle */
+    align-items: center;
+    gap: 25px;               /* <--- Controls space between Copyright and Email */
+    flex-wrap: wrap;         /* Wraps nicely on small screens */
 }
 
-/* LEFT SIDE (Copyright) */
+/* Copyright Text */
 .footer-left .copyright {
     color: #888;
     font-size: 0.85rem;
     margin: 0;
 }
 
-/* RIGHT SIDE (Links) */
+/* Links Group */
 .footer-links {
     display: flex;
-    gap: 20px; /* Space between Email, GitHub, LinkedIn */
+    gap: 25px;              /* <--- Same space between Email, GitHub, LinkedIn */
 }
 
 .footer-links a {
@@ -194,15 +196,13 @@ img {
     text-decoration: underline;
 }
 
-/* Mobile: Stack them properly on small screens */
+/* Mobile Responsiveness */
 @media (max-width: 600px) {
     .footer-flex {
-        flex-direction: column-reverse; /* Copyright on bottom, Links on top */
+        flex-direction: column-reverse; /* Puts links on top, copyright on bottom */
         gap: 15px;
-        text-align: center;
     }
 }
-
 
 /* Horizontal Rule */
 hr {
