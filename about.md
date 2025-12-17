@@ -1,50 +1,56 @@
 ---
-layout: default
+layout: page
 title: About
+permalink: /about/
 ---
 
-# About Me
+# Experience
 
-I'm Carlos Angel Patricio, a Electronics Engineer based in Guadalajara, Jalisco, Mexico.
+### Oracle
+**Site Reliability Engineer (AI Infrastructure)**  
+*Guadalajara, Mexico | [Start Date] – Present*
 
-## Background
+*   Focused on Cloud Infrastructure and Artificial Intelligence automation.
+*   Responsible for site reliability, hardware validation, and system optimization.
 
-[Write about your professional background, education, and journey]
+### Intel Labs
+**System Validation Engineer**  
+*[Start Date] – [End Date]*
 
-## Experience
+*   Performed electrical validation and system-level testing.
+*   Developed automation scripts to streamline validation processes.
 
-**Oracle** - [Role] (Year - Present)
-- Achievement or responsibility
-- Another key contribution
+### Intel Corporation
+**Electrical Validation Engineer**  
+*[Start Date] – [End Date]*
 
-**Intel Labs** - System Validation Engineer (Year - Year)
-- What you accomplished
-- Technologies or skills used
+*   Conducted signal integrity analysis and electrical compliance testing.
+*   Collaborated with design teams to debug hardware issues.
 
-**Intel Corporation** - Electrical Validation Engineer (Year - Year)
-- What you accomplished
-- Technologies or skills used
+### Arizlu
+**Electrical Maintenance Engineer**  
+*[Start Date] – [End Date]*
 
-**Arizlu** - Electrical Mainteinance Engineer (Year - Year)
-- What you accomplished
-- Technologies or skills used
+*   Managed preventive and corrective maintenance for industrial equipment.
 
-**TunaShields** - Electronics Engineer Intern (Year - Year)
-- What you accomplished
-- Technologies or skills used
+### TunaShields
+**Electronics Engineer Intern**  
+*[Start Date] – [End Date]*
 
-## Skills
+*   Assisted in PCB design and prototyping for embedded systems.
 
-Programming Languages: Python, Bash
-Frameworks & Tools: [Tools you use]  
-Other: [Other relevant skills]
+---
 
-## Interests
+# Education
 
-Outside of work, I'm interested in [your interests and hobbies].
+**[Your Degree Name]**  
+[University Name] | *[Graduation Year]*
 
-## Contact
+---
 
-- Email: [{{ site.email }}](mailto:{{ site.email }})
-- GitHub: [github.com/capatric](https://github.com/capatric)
-- LinkedIn: [linkedin.com/in/capatric](https://linkedin.com/in/capatric)
+# Skills
+
+**Core:** Linux Systems, Cloud Infrastructure, CI/CD, Hardware Automation.  
+**Languages:** Python, Bash, C/C++.  
+**Tools:** Docker, Kubernetes, Git, Jenkins, Terraform.  
+**Hardware:** PCB Design (Altium/Eagle), Oscilloscopes, Logic Analyzers, IoT.
