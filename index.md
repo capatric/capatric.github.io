@@ -10,8 +10,6 @@ I specialize in Cloud Infrastructure, Linux systems, and Hardware Automation.
 
 [More About Me &rarr;](/about)
 
-<br>
-
 ### Recent Posts
 <ul>
   {% for post in site.posts limit:3 %}
