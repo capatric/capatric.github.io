@@ -155,34 +155,52 @@ img {
 }
 
 /* Footer */
+/* Footer */
 .footer {
     padding: 2rem 0;
-    text-align: center;
-    border-top: 1px solid #eaeaea; /* Subtle separator line */
+    border-top: 1px solid #eaeaea;
     margin-top: 4rem;
 }
 
+/* This targets the <div class="container footer-flex"> */
+.footer-flex {
+    display: flex;
+    justify-content: space-between; /* Pushes Copyright to Left, Links to Right */
+    align-items: center;            /* Aligns them vertically */
+}
+
+/* LEFT SIDE (Copyright) */
+.footer-left .copyright {
+    color: #888;
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+/* RIGHT SIDE (Links) */
 .footer-links {
-    margin-bottom: 1rem;
+    display: flex;
+    gap: 20px; /* Space between Email, GitHub, LinkedIn */
 }
 
 .footer-links a {
-    color: #333;           /* Dark gray instead of pure black */
+    color: #333;
     text-decoration: none;
-    margin: 0 15px;        /* Spacing between links */
     font-size: 0.95rem;
     transition: color 0.2s;
 }
 
 .footer-links a:hover {
-    color: #007bff;        /* Change color on hover */
+    color: #007bff;
     text-decoration: underline;
 }
 
-.copyright {
-    color: #888;           /* Lighter gray to make it less distracting */
-    font-size: 0.85rem;
-    margin: 0;
+/* Mobile: Stack them properly on small screens */
+@media (max-width: 600px) {
+    .footer-flex {
+        flex-direction: column-reverse; /* Copyright on bottom, Links on top */
+        gap: 15px;
+        text-align: center;
+    }
 }
 
 
