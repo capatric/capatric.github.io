@@ -1,11 +1,13 @@
 # Site settings
 title: Carlos Patricio
 email: carangpatmar@gmail.com
-description: Electronics Engineer
+description: Site Reliability Engineer focused on AI infrastructure, Linux systems, and hardware automation.
 url: "https://capatric.github.io"
 github_username: capatric
 linkedin_username: capatric
 baseurl: ""
+lang: en
+social_image: /assets/images/og-card.svg
 
 # Build settings
 markdown: kramdown

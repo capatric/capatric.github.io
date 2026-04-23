@@ -2,67 +2,64 @@
 layout: page
 title: About
 permalink: /about/
+description: Background, experience, and technical focus areas for Carlos Patricio.
+eyebrow: Background
+intro: Site Reliability Engineer with experience across AI infrastructure, Linux systems, hardware validation, and automation for complex engineering environments.
 ---
 
-# Experience
+I work on reliability problems that sit between infrastructure, operations, and physical systems. That usually means improving failure handling, tightening feedback loops, and building tooling that makes both debugging and daily execution less fragile.
+
+## Experience
 
 ### Oracle
 **Site Reliability Engineer**  
 *Zapopan, Jalisco, Mexico | Jul 2025 – Present*
 
-*   Responsible for site reliability, hardware validation, and system optimization.
+- Support site reliability efforts for infrastructure tied to demanding AI and platform workloads.
+- Focus on system stability, operational readiness, and efficient troubleshooting across Linux-based environments.
+- Contribute to validation and optimization work where infrastructure and hardware concerns overlap.
 
 ### Intel Labs
 **System Validation Engineer**  
 *Zapopan, Jalisco, Mexico | Feb 2023 – Jul 2025*
 
-*   **Hala Point Development:** Played a pivotal role in creating the industry's groundbreaking neuromorphic system (1.15 billion neurons), setting new standards for AI efficiency.
-*   **Test Automation:** Engineered automation tools for the **Loihi 2** chip, significantly boosting validation efficiency and reliability.
-*   **Hardware Bring-Up:** Provided expert electrical/mechanical support for new hardware bring-up and debugging.
-*   **Integration:** Delivered support in integrating and verifying neuromorphic platforms, optimizing system performance.
-*   **Collaboration:** Fostered partnerships with software, thermal, and mechanical teams to co-design neuromorphic projects.
-*   **Documentation:** Produced key operational concepts and engineering plans to ensure clarity across teams.
+- Contributed to the development and validation of large-scale neuromorphic systems, including work related to Hala Point.
+- Built automation tooling for Loihi 2 validation flows to improve repeatability and reduce manual effort.
+- Supported hardware bring-up, debugging, and system integration across electrical, mechanical, and software boundaries.
+- Produced technical documentation and validation plans to keep execution aligned across teams.
 
 ### Intel Corporation
 **Electrical Validation Engineer**  
 *Zapopan, Jalisco, Mexico | Aug 2021 – Jan 2023*
 
-*   **Tool Development:** Led the development of a Python-based real-time tracking GUI, migrating lab database management from local Excel to a cloud-based system.
-*   **Interface Validation:** Ensured equipment readiness and testing for critical interfaces including USB3, SATA, PCIe, OPIO, and DMI.
-*   **Calibration & Debugging:** Performed equipment calibration, system enabling, and troubleshooting to maintain test accuracy.
-*   **Quality Assurance:** Conducted interface tests and collaborated in the debugging process to ensure product quality.
+- Led the development of a Python-based tracking interface that moved lab data handling from local spreadsheets to a cloud-backed workflow.
+- Validated critical platform interfaces including USB3, SATA, PCIe, OPIO, and DMI.
+- Performed equipment calibration, system enabling, and debug work to maintain accurate test execution.
 
 ### Arizlu
 **Electrical Maintenance Engineer**  
 *Guadalajara, Jalisco, Mexico | Oct 2020 – Jul 2021*
 
-*   **Process Improvement:** Reduced electrical incidents by **~78%** in key machinery by implementing a comprehensive preventive maintenance plan.
-*   **Cost Reduction:** Saved the company **~35%** in maintenance costs by establishing an internal repair workshop.
-*   **Project Leadership:** Led the installation of two new industrial machines, coordinating with technicians and acting as a technical translator.
-*   **Operational Support:** Rapidly diagnosed and fixed electrical issues in production machinery to minimize downtime.
-*   **Design & Assembly:** Drafted diagrams and assembled electrical components for team projects.
+- Reduced electrical incidents in key machinery by introducing a preventive maintenance plan.
+- Lowered maintenance costs by helping establish an internal repair workflow.
+- Led machine installation work and resolved production issues with a strong hands-on troubleshooting focus.
 
 ### TunaShields
 **Electronics Engineer Intern**  
 *Colima, Colima, Mexico | Feb 2020 – Jun 2020*
 
-*   **PCB Design:** Engineered PCB layouts using **Altium Designer** to facilitate wired-to-WiFi protocol conversion.
-*   **IoT Gateway Development:** Developed a data gateway using **Raspberry Pi**, enabling exchange between Siemens LOGO! controllers and systems via **Modbus TCP/IP** and **S7 protocols**.
-*   **Cloud & Local Monitoring:** Implemented a local dashboard in **Node-RED** and a remote dashboard on **Ubidots** (via **MQTT**) for real-time visibility and analytics.
-*   **System Simulation:** Simulated and validated industrial processes using Factory I/O software and Siemens LOGO! logic before deployment.
+- Designed PCB layouts in Altium Designer for protocol-conversion hardware.
+- Built a Raspberry Pi-based gateway for industrial controller communication using Modbus TCP/IP and S7.
+- Implemented local and cloud monitoring paths with Node-RED, MQTT, and Ubidots.
 
----
-
-# Education
+## Education
 
 **Electronics Engineer**  
 *Instituto Tecnologico de Ciudad Guzman (ITCG) | Aug 2015 - Jun 2020*
 
----
+## Skills
 
-# Skills
-
-**Core:** Linux Systems, Cloud Infrastructure, CI/CD, Hardware Automation.  
+**Core:** Linux systems, cloud infrastructure, site reliability, validation workflows, hardware automation.  
 **Languages:** Python, Bash.  
-**Tools:** Git.
-**Hardware:** PCB Design (Altium/Eagle), Oscilloscopes, Logic Analyzers, IoT.
+**Tools:** Git, CI/CD systems, lab and test tooling.  
+**Hardware:** PCB design, oscilloscopes, logic analyzers, industrial and IoT integration.

@@ -1,37 +1,42 @@
 ---
 layout: post
-title: "My First Post"
+title: "Reliability work starts with fewer hidden states"
 date: 2025-11-20
-excerpt: "This is an example post to get you started with your blog."
+description: Why simplifying operational state is one of the fastest ways to make systems easier to trust.
+excerpt: "The fastest reliability gains often come from removing ambiguity, not adding more dashboards."
 ---
 
-# My First Post
+When a system feels unreliable, the first instinct is often to add more visibility: more alerts, more dashboards, more checks. That helps, but only up to a point.
 
-This is an example blog post written in Markdown. You can use all standard Markdown formatting.
+The faster improvement usually comes from reducing the number of hidden states the system can enter.
 
-## Formatting Examples
+## Hidden state is expensive
 
-You can write **bold text**, *italic text*, and even `code snippets`.
+Operational work gets harder when the real system state is spread across too many places:
 
-### Lists
+- manual steps that live in someone’s memory
+- service dependencies that are not modeled clearly
+- recovery paths that depend on timing or order
+- tooling that succeeds silently even when part of the job failed
 
-- Item one
-- Item two
-- Item three
+Each of those conditions forces engineers to guess. Reliability drops because the team is operating on incomplete information.
 
-### Code Blocks
+## What to simplify first
 
-```python
-def hello_world():
-    print("Hello, world!")
-```
+I usually start with three questions:
 
-### Links and Images
+1. Can the system describe its own current state clearly?
+2. Can an operator tell what failed without reading source code or tribal knowledge?
+3. Can the recovery path be repeated the same way every time?
 
-Check out [my website](/) or add images:
+If the answer is no, the problem is not only observability. It is design.
 
-![Alt text](/assets/images/perrito.jpeg)
+## Good operational design looks boring
 
-## Conclusion
+The best systems are rarely dramatic. They expose clear status, fail in obvious ways, and recover through a narrow set of well-tested actions.
 
-Start writing your own posts by creating new files in the `_posts` folder with the naming format: `YYYY-MM-DD-title.md`
+That kind of boring behavior is valuable. It reduces time spent interpreting the platform and increases time spent actually fixing problems.
+
+## Closing thought
+
+Reliability work is often framed as resilience under failure. In practice, a large part of it is simpler: remove ambiguity until the system becomes easier to reason about.

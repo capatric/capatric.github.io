@@ -1,37 +1,48 @@
 ---
 layout: post
-title: "My Second Post"
+title: "Automation is only useful when operators can trust it"
 date: 2025-12-16
-excerpt: "This is an example post to get you started with your blog."
+description: A short note on building automation that reduces operational risk instead of hiding it.
+excerpt: "Automation should reduce cognitive load and failure risk, not turn simple work into opaque workflows."
 ---
 
-# My First Post
+Automation can save enormous amounts of time, but only when the people using it believe the tool is doing exactly what it claims.
 
-This is an example blog post written in Markdown. You can use all standard Markdown formatting.
+That trust does not come from slogans about efficiency. It comes from engineering choices.
 
-## Formatting Examples
+## The wrong kind of automation
 
-You can write **bold text**, *italic text*, and even `code snippets`.
+Automation becomes dangerous when it hides important details:
 
-### Lists
+- commands that mutate systems without showing intended changes
+- scripts that swallow errors and print success anyway
+- tools that require undocumented environment setup
+- workflows that are faster only for the person who wrote them
 
-- Item one
-- Item two
-- Item three
+In those cases, the team becomes dependent on automation while trusting it less. That is a bad trade.
 
-### Code Blocks
+## The standard I care about
 
-```python
-def hello_world():
-    print("Hello, world!")
-```
+Useful operational tooling should make the following clear:
 
-### Links and Images
+- what it is about to do
+- what it actually changed
+- what failed
+- how to recover safely
 
-Check out [my website](/) or add images:
+If those answers are visible, the tool lowers cognitive load. If not, it just moves complexity out of sight.
 
-![Alt text](/assets/images/perrito.jpeg)
+## Small habits that help
 
-## Conclusion
+Some of the best improvements are not complicated:
 
-Start writing your own posts by creating new files in the `_posts` folder with the naming format: `YYYY-MM-DD-title.md`
+- print the target environment explicitly
+- separate read-only checks from mutation steps
+- keep output concise but specific
+- make retries deliberate rather than automatic
+
+These details make a script feel dependable instead of fragile.
+
+## Closing thought
+
+The point of automation is not to look sophisticated. The point is to let operators move faster without losing confidence in the system they are touching.
