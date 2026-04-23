@@ -127,6 +127,14 @@ main.container {
     padding: 3.5rem 0 4rem;
 }
 
+.page-home main.container {
+    max-width: 680px;
+}
+
+.page-home h1 {
+    font-size: clamp(2.6rem, 7vw, 3.6rem);
+}
+
 h1,
 h2,
 h3,
@@ -311,6 +319,11 @@ li + li {
 
 .text-link {
     font-weight: 700;
+}
+
+.home-post-date {
+    color: var(--muted);
+    font-size: 0.95rem;
 }
 
 .page-header,
